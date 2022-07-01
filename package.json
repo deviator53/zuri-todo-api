@@ -1,0 +1,22 @@
+{
+  "name": "zuri-todo-api",
+  "version": "1.0.0",
+  "description": "A todo API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "TODOLIST"
+  ],
+  "author": "David Bradford",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.1",
+    "nodemon": "^2.0.18"
+  }
+}
